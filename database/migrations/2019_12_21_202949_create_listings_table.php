@@ -23,7 +23,6 @@ class CreateListingsTable extends Migration
             $table->string('email');
             $table->integer('phone')->unsigned();
             $table->string('bio');
-            $table->string('Load Discripton');
             $table->timestamps();
         });
     }
